@@ -7,11 +7,13 @@ public class Player {
     private int jersey;
 
   
-    public void SetId(int v)
+    //Setter
+	public void SetId(int v)
     {
         id = v;
     }
-
+    
+	//Getter
     public int GetId()
     {
         return id;
